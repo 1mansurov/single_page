@@ -14,7 +14,7 @@ const RouteController = () => {
     <Routes>
       <Route path="login" element={<Suspense fallback={<p>Loading...</p>}><Login /></Suspense>} />
       <Route path="home" element={<Suspense fallback={<p>Loading...</p>}><Home /></Suspense>} />
-      <Route path="single/:id" element={<Suspense fallback={<p>Loading...</p>}>< Single /></Suspense>} />
+      {/* <Route path="single/:id" element={<Suspense fallback={<p>Loading...</p>}>< Single /></Suspense>} /> */}
     </Routes>
     
     </>

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import axios from '../../api/axios';
-import "../single/Single.css"; // Import the CSS file
-import Loading from "../../assets/Loading.mp4"
+import "../single/Single.css"; 
+// import Loading from "../../assets/Loading.mp4"
 
 const Single = () => {
   const { id } = useParams();
